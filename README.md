@@ -6,7 +6,7 @@ This repository contains work completed as part of Computer Science courses I ha
 
 ### Spring 2015
 
- * CSE 10101 - [Script-Based Programming 1](https://github.com/placher/Notre_Dame_Coursework/tree/master/Script_Based_Programming_1)
+* CSE 10101 - [Script-Based Programming 1](https://github.com/placher/Notre_Dame_Coursework/tree/master/Script_Based_Programming_1)
 * EG 10102 - [Introduction to Engineering Systems 2](https://github.com/placher/Notre_Dame_Coursework/tree/master/Introduction_to_Engineering_Systems_2)
 
 ### Fall 2016
