@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository contains work completed as part of Computer Science courses I have taken as a student at the University of Notre Dame. A short description of each course is available within the cooresponding folder.
+This repository contains work completed as part of Computer Science courses I have taken as a student at the University of Notre Dame. A short description of each course is available within the corresponding folder.
 
 ### Spring 2015
 
