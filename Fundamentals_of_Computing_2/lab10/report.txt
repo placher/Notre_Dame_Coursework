@@ -1,0 +1,40 @@
+report.txt
+CSE 20212-01 Lab 10
+J. Patrick Lacher
+
+The user uses the language.cpp program developed for the second part of this lab to determine if a target document is 
+written in either English or Spanish. The user compiles the code using the associated makefile and executes the resulting
+program. While running, the user is prompted for the name of a .txt file. The program then performs a series of
+calculations and prints out the best-guess of what language file.txt was written in.
+
+Internally, the program begins by using two external files (english.txt and spanish.txt) to build dictionaries of the 10000
+most common words in each language, opening each file with ifstream and pushing each read word into a dictionary vector.
+The program then querries the user for the name of a file, which is then opened in a similar fashion. While the program
+hasn't reached the end of the file, the words are read in one at a time, stripped of their punctuation with erase() and
+converted to all lowercase using transform(). Find() commands are then used to search for the word in the two dictionaries,
+incrementing an internal counter for each word found in one of the dictionaries. When the file has been completely read,
+the program returns the language with the higher word counter or an error if the counters were equal or non-existent.
+
+The program was verified using a series of test files in both languages, which have been included in the submission
+(iliad.txt for English and quijote.txt for Spanish). The program correctly identified the language of both documents, and
+returned an error for a garbage file.
+
+When building a dictionary, comprehensiveness has to be balanced with the time required to traverse it. For things like the
+literature excerpts I used as examples something in the range of 10000-20000 words is sufficent as long as they are the
+most common words in the language and not just a random selection. Generally speaking, though, as the technical complexity
+of the target document increases (research material, etc.) the dictionary size has to increase as well. There are a number
+of resources that can be used to simplify this process. The UNIX enviroment has a basic English wordlist stored in
+/usr/share/dict/words or in the wordlist package that can serve as dictionary seeds. The resource I used, though, was
+www.wiktionary.com, which has word frequency lists for most every language, simplifying my seed process and allowing me to
+shorten the overall size of my dictionaries.
+
+I actually didn't find the possibilities vector that different than the set. The vector may have been a little easier to
+implement because of the [] operator, which allowed it to be handled like an array in loops, but once I got a better
+understanding of set iterators, the two were implemented similarly. The set implementation definitely did cut down on the
+number of operations, though, as once an iterator was acquired there was no need to re-access the possibilities structure
+untill a new board position was being considered, something I couldn't do in the vector implementation.
+
+C++11 definitely cut down on the ammount of typing I had to do to reimplement sudoku with sets. Being able to declare
+variables with the auto type made most of my declarations much easier than, say, having to type out std::set<int>::iterator
+ten times. In general, it seems like C++11 moves to standardize and simplify input, allowing for more powerful
+implementations.

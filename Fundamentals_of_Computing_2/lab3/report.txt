@@ -1,0 +1,37 @@
+report.txt for Lab 3
+J. Patrick Lacher
+
+This week in lab, we focused on inheritance hiearchies for classes. As such, there wasn't much interesting from an end-user perspective.
+The "interactive" programs returned certain information from the various classes to prove that they successfully inherited properties from
+their respective parent classes. The second program in Part 3 was slightly more interesting, as it returned information modeling a shipping
+department's costs for the day, but there wasn't much for the user to do this week other than compile and run the program.
+
+From a coding perspective, all of the classes this week were designed to inherit aspects from parent/base classes, either basic Bank Account
+properties or information about shipping a Package. The challenge with inheritance is to remember to include get() and set() functions in
+the parent class to access the private variables from the child class. Beyond this, creating child classes was relatively simple, albeit
+time-consuming. In parts 1 & 2, the main.cpp file instantiates an instance of each child class then calls a display function to show that
+they were properly constructed. Part 3 first called for a conversion of one of the child classes of BankAccount to be converted to utilize
+composition, which was accomplished by simply instantiating a BankAccount variable within the child class instead of calling for inheritance.
+The second half of part 3 used the inheritance structure designed in Package to model a company's shipping department over the course of a
+day. This required only changes to the main.cpp file, instantiating arrays of each child class to model the different packages, and a
+sum variable to store the cumulative sum of all shipping costs as each "package" was called.
+
+The main.cpp files for each part of the lab served to test the validity of each inheritance structure. Since the default constructor was
+used in most cases, it was easy to mirror the program's calculations on paper and ensure the correct information was accessed and returned.
+
+As to the question of choosing composition or inheritence, it depends to some extent on the purpose of the class relative to the rest of
+the program. In the Connect Four example, the board was the highest level and least specific entity that existed, and it had to exist as
+an individual, so it made sense to use composition because each column described an aspect of the row. In the Bank Account example, it
+makes more sense to use inheritance because, while all credit cards must have an associated bank account, there may be bank accounts that
+don't have an associated credit card, so it makes more sense from an organizational perspective to make Bank Account the top-level
+entity (parent class). Essentially, the issue boils down to an organizational ethos: either answer can be made to work, but it is generally
+preferable to organize the classes from most abstract to most specialized.
+
+I didn't work with a partner for this lab, but the goal of making base (parent) classes abstract and derived (child) classes concrete is to
+ensure that the parent class can be used to describe solely things that are shared among child classes, allowing seemingly different child
+objects to be compared in a way that doesn't cause an error. The child class is used to describe things that are unique about the child
+compared to other objects that share the parent class. For example, if you were to create an class for animals, there would be certain
+things that all members had in common: eyes, sense of smell, mouth, type of diet, etc. When comparing two animals, though, say a dog and a
+dolphin, there are certain things one has that the other does not (sonar, fur, fins, etc.), and these things would be placed into child
+classes. From a techical perspective, this means the only variables in a parent (base) class should be universal commonalities and all
+unique differences should be placed in the child (derived) class to seperate levels of comparisson.

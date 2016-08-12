@@ -1,0 +1,89 @@
+|alu_switch
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+HEX0[0] <= alu:alu_12.port3
+HEX0[1] <= alu:alu_12.port3
+HEX0[2] <= alu:alu_12.port3
+HEX0[3] <= alu:alu_12.port3
+HEX0[4] <= alu:alu_12.port3
+HEX0[5] <= alu:alu_12.port3
+HEX0[6] <= alu:alu_12.port3
+
+
+|alu_switch|alu:alu_12
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+disp[0] <= alu_display:alu_display_12.port2
+disp[1] <= alu_display:alu_display_12.port2
+disp[2] <= alu_display:alu_display_12.port2
+disp[3] <= alu_display:alu_display_12.port2
+disp[4] <= alu_display:alu_display_12.port2
+disp[5] <= alu_display:alu_display_12.port2
+disp[6] <= alu_display:alu_display_12.port2
+
+
+|alu_switch|alu:alu_12|alu_calculate:alu_calculate_12
+a[0] => Add0.IN3
+a[0] => Add1.IN6
+a[0] => Add2.IN6
+a[1] => Add0.IN2
+a[1] => Add1.IN5
+a[1] => Add2.IN5
+a[2] => Add0.IN1
+a[2] => Add1.IN4
+a[2] => Add2.IN4
+b[0] => Add0.IN6
+b[0] => Add3.IN6
+b[0] => Add1.IN3
+b[1] => Add0.IN5
+b[1] => Add3.IN5
+b[1] => Add1.IN2
+b[2] => Add0.IN4
+b[2] => Add3.IN4
+b[2] => Add1.IN1
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[0] => Mux2.IN5
+sel[0] => Mux3.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+sel[1] => Mux2.IN4
+sel[1] => Mux3.IN4
+f[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ovfl <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu_switch|alu:alu_12|alu_display:alu_display_12
+s[0] => Decoder0.IN2
+s[1] => Decoder0.IN1
+s[2] => Decoder0.IN0
+ovfl => f.OUTPUTSELECT
+ovfl => f.OUTPUTSELECT
+ovfl => f.OUTPUTSELECT
+ovfl => f.OUTPUTSELECT
+ovfl => f.OUTPUTSELECT
+ovfl => f.OUTPUTSELECT
+ovfl => f.OUTPUTSELECT
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[4] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[5] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[6] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

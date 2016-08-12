@@ -1,0 +1,29 @@
+report.txt for lab 5
+
+The lab this week called for the creation of a puzzle class used for controlling a game of sudoku. From the user's perspective, 
+Part 1 merely verifies that the class has been created correctly and is able to print successfully. Part 2 is allows the user to 
+play a game of sudoku on a board read in from a file named sample_puzzle.txt. While there are still empty cells in the board, the 
+user is shown the current board state and asked to enter the row, column, and value of the move they would next like to make. The 
+move is then assessed for legality under the rules of sudoku and applied to the board if acceptable. When the user completes the 
+puzzle, they are congratulated and the program ends.
+
+Internally, much of the program is controlled by the puzzle class. The class is templated so it can be instantiated as multiple 
+data types, in this case intergers for regular sudoku or chars for the alphabetic variant "Wordoku". The constructor uses the 
+ifstream type to read in a 9*9 board from a .txt file called sample_puzzle.txt, storing it in a two-dimensional vector. When the 
+main program calls for a move to be made, the placeNumber() function compares the requested move against its row, column, and 
+sub-grid to validate the move according to the rules of sudoku, completing the move if it is determined legal or returning an 
+error if the move is invalid. The game is contained within a while loop that keeps the game going so long as there is a '0' in 
+the board, with the placeNumber() algorithm ensuring that every move is legal, and therefore a full board is equivalent to 
+victory.
+
+Part 1 serves as a verification that the class is instantiated correctly and that the print function is successful. The gameplay 
+functionality was verified by starting the program and attempting a series of both acceptable and illegal moves and ensuring the 
+correct results are processed.
+
+The templating of the puzzle function makes it much more reusable and multi-functional as a class. This is relatively simple to 
+implement, adding the template <typename T> line before every function in the class and before the class definition itself to 
+create a new type (T) that is defined when the class is instantiated. This allows the same class code to be used to encapsulate 
+multiple data types, in this case ints or chars. Some of the reading from files was a little struggle, but wasn't too hard once I 
+learnt the appropriate syntax for ifstream. The one thing that was significantly different was that, in templated classes, both 
+the declaration of the class and its instantiation are included in the .h file, which is a departure from the typical .h and .cpp 
+structure we have been using throughout the semester.

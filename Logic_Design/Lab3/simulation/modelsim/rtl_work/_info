@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/simulation/modelsim
+valu
+Z1 !s110 1455136462
+!i10b 1
+!s100 <d`D[je;RfL5Y@X5<eMT40
+IYn]ko238BBZ>cCYT5Wei`1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1455136364
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1455136462.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3}
+valu_calculate
+R1
+!i10b 1
+!s100 ];cKcPQ>JZ6ah:GF<e@NT3
+I4PnD`6n3ddKI<O@=DRA^O3
+R2
+R0
+w1455135052
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_calculate.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_calculate.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_calculate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_calculate.v|
+!i113 1
+R5
+R6
+valu_display
+R1
+!i10b 1
+!s100 7NOSC_U>mXhEMIXnl6fBo3
+Ib=XLeE[_K7N^deSzgSVNi3
+R2
+R0
+w1455135451
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_display.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_display.v|
+!i113 1
+R5
+R6
+valu_tb
+!s110 1455136473
+!i10b 1
+!s100 ?XU6=>7[iVo=C7KffL]H20
+I^Zz_Oo7I=EG6oNYmRl3gX1
+R2
+R0
+w1455136362
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_tb.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1455136473.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_tb.v|
+!i113 1
+o-work work

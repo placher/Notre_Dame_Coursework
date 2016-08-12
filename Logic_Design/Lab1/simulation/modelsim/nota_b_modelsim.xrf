@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, xor_always.v
+source_file = 1, xor_switch.v
+source_file = 1, C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_switch.v
+source_file = 1, C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_always.v
+design_name = nota_b_switch
+instance = comp, \LED_RED0~output , LED_RED0~output, nota_b_switch, 1
+instance = comp, \SW1~input , SW1~input, nota_b_switch, 1
+instance = comp, \SW0~input , SW0~input, nota_b_switch, 1
+instance = comp, \nota_b_12|f , nota_b_12|f, nota_b_switch, 1

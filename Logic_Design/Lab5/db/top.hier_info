@@ -1,0 +1,53 @@
+|top_switch
+CLOCK_50 => CLOCK_50.IN1
+KEY[0] => _.IN1
+KEY[1] => _.IN1
+KEY[2] => _.IN1
+LEDG[0] <= top:top_12.port4
+LEDG[1] <= top:top_12.port5
+HEX0[0] <= top_display:top_display_12.port1
+HEX0[1] <= top_display:top_display_12.port1
+HEX0[2] <= top_display:top_display_12.port1
+HEX0[3] <= top_display:top_display_12.port1
+HEX0[4] <= top_display:top_display_12.port1
+HEX0[5] <= top_display:top_display_12.port1
+HEX0[6] <= top_display:top_display_12.port1
+
+
+|top_switch|top:top_12
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+clk => outWire2~reg0.CLK
+clk => outWire1~reg0.CLK
+clk => next_state~1.DATAIN
+clk => state~5.DATAIN
+a => Selector1.IN1
+a => Selector1.IN2
+a => Selector0.IN1
+a => Selector2.IN1
+b => next_state.DATAB
+b => Selector1.IN3
+b => Selector0.IN2
+b => Selector2.IN2
+outWire1 <= outWire1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outWire2 <= outWire2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outState[0] <= outState.DB_MAX_OUTPUT_PORT_TYPE
+outState[1] <= outState.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_switch|top_display:top_display_12
+s[0] => Decoder0.IN1
+s[0] => f[4].DATAIN
+s[1] => Decoder0.IN0
+s[1] => f[6].DATAIN
+f[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= <GND>
+f[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+f[4] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+f[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+f[6] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

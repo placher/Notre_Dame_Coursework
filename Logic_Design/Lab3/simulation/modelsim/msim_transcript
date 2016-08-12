@@ -1,0 +1,68 @@
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab3 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_calculate.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:34:22 on Feb 10,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_calculate.v 
+# -- Compiling module alu_calculate
+# 
+# Top level modules:
+# 	alu_calculate
+# End time: 15:34:22 on Feb 10,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab3 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_display.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:34:22 on Feb 10,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_display.v 
+# -- Compiling module alu_display
+# 
+# Top level modules:
+# 	alu_display
+# End time: 15:34:22 on Feb 10,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab3 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:34:22 on Feb 10,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:34:22 on Feb 10,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:34:33 on Feb 10,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab3/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 15:34:33 on Feb 10,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.alu_tb
+# vsim work.alu_tb 
+# Start time: 15:34:40 on Feb 10,2016
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.alu_calculate
+# Loading work.alu_display
+add wave -position end  sim:/alu_tb/a
+add wave -position end  sim:/alu_tb/b
+add wave -position end  sim:/alu_tb/sel
+add wave -position end  sim:/alu_tb/disp
+run
+# End time: 15:41:29 on Feb 10,2016, Elapsed time: 0:06:49
+# Errors: 0, Warnings: 0

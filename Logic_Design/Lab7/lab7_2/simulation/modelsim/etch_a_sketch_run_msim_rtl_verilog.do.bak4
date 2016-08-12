@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+//fs.nd.edu/~abrizius/Private/My\ Documents/Logic\ Design/lab7_2/verilog {//fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/position_counter.v}
+vlog -vlog01compat -work work +incdir+//fs.nd.edu/~abrizius/Private/My\ Documents/Logic\ Design/lab7_2/verilog {//fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/timer.v}
+vlog -vlog01compat -work work +incdir+//fs.nd.edu/~abrizius/Private/My\ Documents/Logic\ Design/lab7_2/verilog {//fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/datapath.v}
+vlog -vlog01compat -work work +incdir+//fs.nd.edu/~abrizius/Private/My\ Documents/Logic\ Design/lab7_2/verilog {//fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/controller.v}
+vlog -vlog01compat -work work +incdir+//fs.nd.edu/~abrizius/Private/My\ Documents/Logic\ Design/lab7_2/verilog {//fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/processor.v}
+

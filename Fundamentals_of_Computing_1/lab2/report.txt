@@ -1,0 +1,12 @@
+J. Patrick Lacher (jlacher1@nd.edu)
+CSE 20211-01
+Report.txt for Lab 2
+
+In the final part of Lab 2, we were asked to use ASCII Art to generate the graph of a function with the x-axis running vertically down the
+page. Aside from initializing the program, there are no inputs from the user-side, and the execution appears almost instantaneous.
+Internally, the program uses a for loop to iterate over every x value with an increment of 0.2 to calculate the y values of the function.
+The results are printed to the screen with a printf() statement, along with a limited string of #'s equivalent in length to a rounded
+interger of the y value. Each iteration was printed on a new line, giving the appearance of a graph proceeding down the screen. The y
+values were also compared to the running maximum and minimum values and saved if they represent a new maximum or minimum for the function.
+The program was verified by comparing the results over the specific range to results from a graphing calculator for the same function.
+

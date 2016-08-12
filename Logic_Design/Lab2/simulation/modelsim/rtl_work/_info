@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/simulation/modelsim
+vadder
+Z1 !s110 1454439501
+!i10b 1
+!s100 4NDS?ZzB1l:l57^f[5RgF1
+IaKMbC?8zgPhB7XGYT4oR43
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1454439053
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1454439501.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2}
+vadder_display
+R1
+!i10b 1
+!s100 liL^`8]TcEBhzgDg1eTUA2
+ImR5IdYMbiS>ZQ0^3fA7Wi1
+R2
+R0
+w1454439404
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_display.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_display.v|
+!i113 1
+R5
+R6
+vadder_tb
+!s110 1454439513
+!i10b 1
+!s100 M[NOc7M=Ae4@gFdb=`6L>3
+I6C>HoF9UeQTPUcb4Ef1dY1
+R2
+R0
+w1454437078
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_tb.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1454439513.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_tb.v|
+!i113 1
+o-work work
+vfull_adder
+R1
+!i10b 1
+!s100 AC29@B3XdjNeA@BlhC12O3
+I3n:3;7;>zHQQ8b?W^5A0a3
+R2
+R0
+w1454433535
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/full_adder.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/full_adder.v|
+!i113 1
+R5
+R6
+vripple_carry_adder
+R1
+!i10b 1
+!s100 j>c?Wi<m9<PaZM6JmIB?M1
+IM4n=N3hhjHJl8=aAHNiD11
+R2
+R0
+w1454438907
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/ripple_carry_adder.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/ripple_carry_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/ripple_carry_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/ripple_carry_adder.v|
+!i113 1
+R5
+R6

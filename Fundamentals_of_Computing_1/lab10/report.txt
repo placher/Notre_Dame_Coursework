@@ -1,0 +1,30 @@
+report.txt for Lab 10
+J. Patrick Lacher
+CSE 20211-01
+
+From the user's perspective, the program asks for a list of words and then generates a crossword puzzle using the provided list.
+The user is presented with both a solved version of the puzzle and an unsolved version with blank spaces instead of letters. The
+program also generates a series of clues for the puzzle in the form of anagrams of the words. The corresponding location in the
+puzzle for each clue is indicated by an ordered pair of the form (Row,Column), with the top left corner being (0,0). If any
+words in the provided list couldn't be placed in the puzzle by the algorithm, the user is also notified at the bottom of the
+screen.
+
+From a programming perspective, the work of the program is split over 12 functions that operate on a pair of global,
+two-dimensional arrays (the words list and the board). At the start  of the program, two functions are called to prepare the 
+user-provided data. The first prompts the user for the input strings and reads from the stream using a for loop and a scanf
+statement, allowing for inputs seperated by any combination of whitespace characters. This function also converts all inputs to
+uppercase as they are read in. The second function uses a bubble sort to order the words in descending order of length. The
+program then initializes a tracking array to keep track of which words have been used in the puzzle and places the longest word
+horizontally in the center row of the board. The program then makes alternating calls to two trios of functions that analyze the
+current state of the board and alternate placing as many words vertically and horizontally, begining with the longest remaining
+word. To simplify the program and save memory space, the anagram clues for each word are generated using strfry() and printed as
+the words are placed in the board. The program then prints a "solution" version of the board with all of the placed words as well
+as an "unsolved" puzzle where the words have been replaced with blank spaces. The program also reports any words that the
+algorithm was unable to place.
+
+The program can be evaluated for correctness by examining the completed crossword board and ensuring that it complies with the
+outlined rules for the assignment. In development, I used a number of printf statements throughout the program to verify that
+certain functions were manipulating the data as they were designed to, eventually removing these statements once the
+functions were debugged. By testing a number of different input configurations and ensuring the program ensuring the program was
+able to handle them, I was able to verify that the program consistently produces correct results within the scope of the
+assignment.

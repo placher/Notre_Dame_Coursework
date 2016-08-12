@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/simulation/modelsim
+vtop
+!s110 1456951635
+!i10b 1
+!s100 Yzj57W>a;n>kI4EU3D7G_1
+IRh>76OMe=D0N9ROiJ5ZQj3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1456951559
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top.v
+L0 1
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1456951635.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5}
+vtop_tb
+!s110 1456951646
+!i10b 1
+!s100 XJ19j=^^Kah^?2c@16MnJ1
+I:R7gTmzOIfRWe7:bCOnhl0
+R1
+R0
+w1456950843
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1456951646.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v|
+!i113 1
+o-work work

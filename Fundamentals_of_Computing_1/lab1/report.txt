@@ -1,0 +1,11 @@
+J. Patrick Lacher (jlacher1)
+CSE 20211
+Lab 1 Report
+
+The purpose of prog3.c was to compute the real roots of a quadratic equation of the formula ax^2 + bx + c. The program begins
+by initializing float variables for a, b, and c at a value of 1.0 and then prompting the user for values for these three
+variables. An if check in line 12 prevents the value of a from being set to 0, and that would result in an eventual divide by
+zero. After taking input values from the user, the program implements the quadratic formula and stores the values in two new
+float variables, x1 and x2. These values, and the user's original equation, are printed to the screen before the program ends.
+To test the program for accuracy, a number of known samples and results were entered, ensuring that accurate results were
+generated. There are no known cases where incorrect results are produced.

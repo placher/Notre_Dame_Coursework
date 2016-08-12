@@ -1,0 +1,32 @@
+Final Lab Report
+CSE 20211-01
+James Marvin (jmarvin1), J. Patrick Lacher ( jlacher1)
+
+From the user’s perspective our final project is supposed to be a user interface that allows the user to pick any of the three
+games we designed or quit the program. Once you click in the button for the game you want , the program starts the game in the
+same window. Once you finish the game you can press ‘Q’ to quit and return to the main menu. The only exception is our pong game
+which only brings you back to the main menu automatically when the game is finished. For the dino jump game we emulated the game
+that pops up when Google Chrome won't load the page you want. It is a classic infinite runner game with obstacles to jump over and
+a score in the upper right hand corner. Our minesweeper game allows you to click on squares and it shows if it is a bomb, the
+number of bombs around you, or you can flag the square if you think it’s a bomb. The smiley face button on the bottom allows you
+to start a new game with a new randomized placement of bombs. Our pong game replicates the traditional person versus computer pong
+with a simple AI. Our AI moves up and down periodically. Once the score of either side reaches 10 it exits the game and returns to
+the main menu. 
+
+Programmatically, the program is broken up into a series of 25 functions that are included in the corresponding header and 
+function files. When the program is opened, a X11 window opens to present the user with a main menu. Gfx_wait() and the mouse
+position are used to determine which of the buttons the user clicks and the corresponding game is opened. In the cases of Pong
+and Dino Jump, the program utilizes a series of structs to hold the data for the games’ various objects (the paddles, dinosaur, 
+etc.), while the board in minesweeper is a two-dimensional global array. In all three cases, the program is broken up into a
+series of functions that are called to accomplish various processes in each of the main game programs, from moving objects
+(like the paddles or the dinosaur) to background processes (like creating the minesweeper board or evaluating a game over
+condition).The pong program utilizes collision detection in a similar manner to the bounce.c file we submitted in an earlier lab.
+It takes in the position of the paddles, the ball, the walls, and the sides of the court. Our collision detection for the dino
+jump game took in the center position of the dinosaur and the cactus, and we wrote conditions for the various ways the dinosaur
+could collide with the cactus. For minesweeper we used srand() and rand() to create random placement of bombs in the field. Using
+two dimensional arrays was key to creating the board. gfx_text(), gfx_fill_rectangle(), and gfx_fill_circle() were key to creating
+the games. This project required us to tie in almost every programming concept we learned this semester. 
+
+To evaluate the program’s success we bug tested specific functions first and wrote developer tools to see what was causing errors.
+Once we created each game we ran it first on its own to bug test it. Once we created the three games, we tested them all together
+in one interface and verified that we had the desired product. 

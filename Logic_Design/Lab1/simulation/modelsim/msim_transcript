@@ -1,0 +1,68 @@
+# do nota_b_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab1 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_always.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:10:02 on Jan 27,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_always.v 
+# -- Compiling module nota_b_always
+# 
+# Top level modules:
+# 	nota_b_always
+# End time: 13:10:02 on Jan 27,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab1 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_structural.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:10:02 on Jan 27,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_structural.v 
+# -- Compiling module nota_b_structural
+# 
+# Top level modules:
+# 	nota_b_structural
+# End time: 13:10:02 on Jan 27,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab1 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:10:02 on Jan 27,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b.v 
+# -- Compiling module nota_b
+# 
+# Top level modules:
+# 	nota_b
+# End time: 13:10:02 on Jan 27,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_all_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:10:34 on Jan 27,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab1/nota_b_all_tb.v 
+# -- Compiling module nota_b_all_tb
+# 
+# Top level modules:
+# 	nota_b_all_tb
+# End time: 13:10:34 on Jan 27,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.nota_b_all_tb
+# vsim work.nota_b_all_tb 
+# Start time: 13:10:40 on Jan 27,2016
+# Loading work.nota_b_all_tb
+# Loading work.nota_b
+# Loading work.nota_b_structural
+# Loading work.nota_b_always
+add wave -position end  sim:/nota_b_all_tb/a
+add wave -position end  sim:/nota_b_all_tb/b
+add wave -position end  sim:/nota_b_all_tb/f_structural
+add wave -position end  sim:/nota_b_all_tb/f_always
+run
+# End time: 13:30:22 on Jan 27,2016, Elapsed time: 0:19:42
+# Errors: 0, Warnings: 0

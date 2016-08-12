@@ -1,0 +1,261 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/simulation/modelsim
+vcontroller
+Z1 !s110 1458762919
+!i10b 1
+!s100 Hc<PAgHF8:TZCC^@n5IFm2
+IhlF<@^^N:2[K?C>I?hl=T1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1458760066
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/controller.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/controller.v
+L0 1
+Z4 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z5 !s108 1458762919.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/controller.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog}
+vdatapath
+R1
+!i10b 1
+!s100 2G862AaAlkSXz;_H4AfB`2
+IkXS3mMo1YPNb3VDR]nR561
+R2
+R0
+w1458762694
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/datapath.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/datapath.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/datapath.v|
+!i113 1
+R6
+R7
+vetch_a_sketch
+R1
+!i10b 1
+!s100 ?M3P<choG9l1ieomFN<<j3
+I7jG>F7<`V1BCIYnV99][b1
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/etch_a_sketch.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/etch_a_sketch.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/etch_a_sketch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/etch_a_sketch.v|
+!i113 1
+R6
+R7
+vhexdigit
+Z8 !s110 1458762916
+!i10b 1
+!s100 ZI]AYPOncF[md77lP3:Bc1
+I4l9d_TMOmTZ23djKNg9V_2
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/hexdigit.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/hexdigit.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1458762916.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/hexdigit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/hexdigit.v|
+!i113 1
+R6
+R7
+vposition_counter
+R1
+!i10b 1
+!s100 Q^8=f1J?DkC3IT3zTOi;S2
+IjV>c_6EFbTmP@IGoDm`[b3
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/position_counter.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/position_counter.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/position_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/position_counter.v|
+!i113 1
+R6
+R7
+vprocessor
+R1
+!i10b 1
+!s100 _[m^LH8bh=C;_8GO[Dc==2
+I035_4GiTK2[VokbK:;4GS3
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor.v|
+!i113 1
+R6
+R7
+vprocessor_tb
+!s110 1458762924
+!i10b 1
+!s100 [oLZ8AI>_JCGXl7zYBAJV1
+IcO_c2j:eoaoF_g2?WeLHd0
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1458762924.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v|
+!i113 1
+o-work work
+vtimer
+R1
+!i10b 1
+!s100 id=@96Dg<kQ;4Xn=c8knC2
+ILl=9_OEkagIdIaEJ<mbLo2
+R2
+R0
+w1458760899
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/timer.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/timer.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/timer.v|
+!i113 1
+R6
+R7
+vvga_adapter
+R1
+!i10b 1
+!s100 2=;e8A[I4Xdoc6^8CL5PZ2
+IBn<1<PmnAR7X=4MJl5^zj1
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_adapter.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_adapter.v
+L0 78
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_adapter.v|
+!i113 1
+R6
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter}
+vvga_address_translator
+R8
+!i10b 1
+!s100 C0DfW0_9[5co`@boeR]Pi1
+ID`LN?^TcXg9U5I4ikjGN63
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_address_translator.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_address_translator.v
+L0 4
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_address_translator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_address_translator.v|
+!i113 1
+R6
+R10
+vvga_controller
+R8
+!i10b 1
+!s100 2gzo?YnRP7M0Dlf2YEk_e1
+IYZOMR4XZce2<=D3>Q6g[g1
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_controller.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_controller.v
+L0 9
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_controller.v|
+!i113 1
+R6
+R10
+vvga_pll
+R8
+!i10b 1
+!s100 4XSTjD`VEiamX^n1@5J`b3
+I]DTN_MjmbElWj6WO`F@m71
+R2
+R0
+R3
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_pll.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_pll.v
+L0 36
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_pll.v|
+!i113 1
+R6
+R10

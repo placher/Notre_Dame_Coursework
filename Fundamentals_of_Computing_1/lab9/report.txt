@@ -1,0 +1,17 @@
+report.txt for Lab 9
+J. Patrick Lacher
+CSE 20211-01
+
+From the user's perspective, the program opens an instance of X11 and waits for a user input. When the user presses a number
+(1-8) the screen is cleared of any previous output and a fractal is drawn, continuing the program until 'q' is pressed.
+
+From the programming perspective, the project is somewhat more complicated. The program opens an instance of X11 and enters a
+while loop. If gfx_event_waiting() returns true, then the program reads the new input from the user. The X11 window is cleared and
+the input is passed through a case structure. If the input was 'q', then the 'continue' variable is set to 0 and the program ends.
+Otherwise, the program calls the function for the corresponding fractal. Each fractal is drawn by a recursive function that
+calls itself at least once every iteration to build the completed image out of corresponding smaller images, and ending when
+a specific base case has been met.
+
+To evaluate the program for correctness, the compiled fractals were compared to the provided examples of each fractal. By looking
+at the finished images, and by testing random commands to the program, I was able to ensure that the program runs smoothly and 
+correctly.

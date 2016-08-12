@@ -1,0 +1,6 @@
+
+State Machine - |etch_a_sketch|processor:processor_1|controller:controller_0|state
+Name state.WAIT state.PLOT state.UPDATE 
+state.WAIT 0 0 0 
+state.UPDATE 1 0 1 
+state.PLOT 1 1 0 

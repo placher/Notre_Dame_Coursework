@@ -1,0 +1,16 @@
+Kansas 16
+IowaSt 1
+NorthCarolina 15
+Indiana 2
+Villanova 14
+Duke 3
+Oklahoma 13
+Syracuse 4
+Gonzaga 12
+Miami 5
+Wisconsin 11
+Virginia 6
+Maryland 10
+Oregon 7
+TexasAM 9
+NotreDame 8

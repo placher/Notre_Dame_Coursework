@@ -1,0 +1,15 @@
+J. Patrick Lacher (jlacher1)
+CSE 20211-01
+Report.TXT for Lab 4
+
+From the user's perspective, ndfootball.c provides a number of analyses on the win/loss records of the Notre Dame football team.
+Users can choose from a list of six possible statistical analyses, entering the number of their choice, followed by any additional
+information necessary. The results are then printed to the screen, either in an array or as a statement.
+
+From the programmer's perspective, the program evaluates the user's input with a case structure, running a sub-program to perform
+the necessary calculations. In multiple cases, for loops are used to search over the arrays of wins and losses for specific
+criteria, from number of games played, to years with specific win/loss records. The results are printed as they are found instead
+of retaining them to save memory.
+
+To evaluate the program for correctness, the results can be verified by hand for all of the analyses performed. In all cases, the
+program produced accurate results.

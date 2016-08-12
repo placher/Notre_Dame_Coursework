@@ -1,0 +1,80 @@
+# do adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab2 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:58:21 on Feb 02,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 13:58:21 on Feb 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab2 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/ripple_carry_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:58:21 on Feb 02,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/ripple_carry_adder.v 
+# -- Compiling module ripple_carry_adder
+# 
+# Top level modules:
+# 	ripple_carry_adder
+# End time: 13:58:21 on Feb 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab2 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:58:21 on Feb 02,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 13:58:21 on Feb 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab2 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_display.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:58:21 on Feb 02,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_display.v 
+# -- Compiling module adder_display
+# 
+# Top level modules:
+# 	adder_display
+# End time: 13:58:21 on Feb 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:58:33 on Feb 02,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab2/adder_tb.v 
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 13:58:33 on Feb 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.adder_tb
+# vsim work.adder_tb 
+# Start time: 13:58:38 on Feb 02,2016
+# Loading work.adder_tb
+# Loading work.adder
+# Loading work.ripple_carry_adder
+# Loading work.full_adder
+# Loading work.adder_display
+add wave -position end  sim:/adder_tb/a
+add wave -position end  sim:/adder_tb/b
+add wave -position end  sim:/adder_tb/cin
+add wave -position end  sim:/adder_tb/s
+add wave -position end  sim:/adder_tb/f
+run
+# End time: 14:04:49 on Feb 02,2016, Elapsed time: 0:06:11
+# Errors: 0, Warnings: 0

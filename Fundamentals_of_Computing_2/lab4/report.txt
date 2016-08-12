@@ -1,0 +1,34 @@
+report.txt for Lab 4
+J. Patrick Lacher
+
+From the user's perspective, the blackjack program developed in Part 3 is relatively straightforward. Two cards are dealt to the player and
+the dealer. The player is then asked if they would like to hit (draw another card) or stay with their current hand, pressing 1 or 0
+respectively. After each hit, the revised score is shown, automatically forcing the user to stay on 21 and ending the hand if the user
+busts (exceeds 21). The dealer then hits until its score exceeds 16, at which point the final score is printed to the console and the
+rules of blackjack are used to determine the winner (ties go to the dealer). The user is then presented with a running total of their
+victories/defeats and asked if they would like to play another hand.
+
+Programaticallly, the blackjack game depends heavily on the CardDeck class developed earlier in the lab, while the algorithm controlling the
+program appears in main.cpp. At the begining, the program creates an instance of CardDeck, as well as a number of interger variables used to
+track different inputs and game statistics (such as games won by each player and the current value of each player's hand). The game itself is
+contained inside two while loops. Cards are dealt fron the deck using the Deal() function, passing the current position in the deck as its
+argument. After the dealer and the player are dealt two cards each, the player is given a chance to draw more cards and add them to his/her
+total score. After each time the player hits, their score is checked and they automatically stay if they have a score of 21 and are notified
+of their loss if they exceed 21. After the player has hit their desired number of times and stayed on a valid score, the dealer draws untill
+it reaches a score >= 17. The end-game algorithm then compares the dealer's score to the player's and awards a point to the valid victory
+counter, with ties going to the dealer. As soon as an end-game scenario is achieved (either hitting over 21 or beating/losing to the dealer),
+the program breaks the inner while loop and asks the user if they would like to play again. If there are less than 15 unused cards left in
+the deck (deckPosition >= 36) the deck is re-shuffled and the deck position is reset to 0. If the user chooses not to continue, the program
+terminates.
+
+The blackjack program was verified by building it in parts and testing along the way. The CardDeck class was verified in previous parts of
+this lab. The algorithm for Deal() was verified by using an unshuffled deck and manually confirming the dealt cards. The various aspects
+of the blackjack game itself (starting deal, player hitting/staying, dealer hitting to >= 17, end-game scenarios) were all developed and
+tested individually before being added to the final program, to verify their accuracy.
+
+Monkey-Sort Results
+-------------------
+
+Deck of 7: {7, 4, 12}
+Deck of 8: {12, 3, 15}
+Deck of 9: {20, 14, 6}

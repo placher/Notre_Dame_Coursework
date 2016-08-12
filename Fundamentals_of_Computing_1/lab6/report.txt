@@ -1,0 +1,21 @@
+report.txt for lab 6
+J. Patrick Lacher
+
+From the user's perspective, the program manipulates a database of movie quotes that is pulled from a startup text file. After
+reading the startup database from the file, the program gives the user the option to add to the database, view current members
+of the database, search the database for a substring, or print the database to a new text file. The program will continue to
+offer these options until the user chooses to exit the program from the main menu.
+
+From a programming perspective, the program relies on a 2-dimensional global array to serve as the sayings database. A while
+loop keeps the program running, and a series of sub-functions handle operations. The database is initialized by using fgets()
+to read from a filename/path passed by the user using stdin. Two of the operation files, newstring() and sayingsearch() use
+similar methods to take strings from the user and either append them to the database or querry the database with the string
+acting as a search parameter. savetotext() also uses this method to create a new text file containing the current database:
+using fopen() to create a new text file in "write" mode to recieve from the instances of fprintf(). The utilization of all of 
+these functions is controlled by program(), which was written to serve as an independent control object.
+
+Since the program's purpose is to manipulate strings, accuracy can be evaluated by ordering the operation of a function on the
+database and then using the printallsayings() function to inspect the database and evaluate the correctness of the changes
+ordered/made. The sayingsearch() function could also be corroborated by a manual search through the database. Finally,
+savetotext() could be evaluated by exiting the program and opening mysayings.txt and checking the file for accuracy. All of
+these tests showed that the program runs exactly as intended.

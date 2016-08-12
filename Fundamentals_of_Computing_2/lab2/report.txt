@@ -1,0 +1,20 @@
+report.txt for Lab 2
+J. Patrick Lacher
+
+From the user's perspective, the program asks the user for the numerator and denominator of two functions. The fractions are
+displayed on the terminal in decimal form. Four operations are then run on the fractions, with a short description of each, along
+with the resulting value, being displayed on the terminal. That's about the extent of what the user sees, most of this project
+was back-end design.
+
+The majority of this program is controlled by a Rational class designed to hold/manipulate rational fractions. The class has two
+interger variables that hold the numerator and denominator of the fraction, respectively. Upon creation, the constructor sets the
+value of the fraction to 1/1, this setting being changable by virtue of the storeFraction() function. In addition to taking new
+variables for the fraction, this function also ensures that there are no cases where the denominator of a fraction can be 0, as
+well as reducing the fraction to simplest form if possible. The various mathematical operations are completed through overloaded
+versions of the +=, -=, *=, /= and != operators, which are redefined in the prototype for the class. The results of each operation
+are displayed to the terminal using an overloaded << operator that prints a decimal corresponding to the fraction stored in r1
+after the operation has been performed.
+
+The program was verified for accuracy by performing all of the included operations on paper and verifying that the program returned
+the same results. The program's rejection of invalid inputs (denominators of 0) was also verified, ensuring that everything worked
+as designed.

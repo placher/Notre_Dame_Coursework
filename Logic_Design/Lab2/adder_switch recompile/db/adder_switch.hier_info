@@ -1,0 +1,91 @@
+|adder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+cin => cin.IN1
+s[0] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3].DB_MAX_OUTPUT_PORT_TYPE
+f[0] <= adder_display:adder_display_0.port1
+f[1] <= adder_display:adder_display_0.port1
+f[2] <= adder_display:adder_display_0.port1
+f[3] <= adder_display:adder_display_0.port1
+f[4] <= adder_display:adder_display_0.port1
+f[5] <= adder_display:adder_display_0.port1
+f[6] <= adder_display:adder_display_0.port1
+
+
+|adder|ripple_carry_adder:ripple_carry_adder_0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+cin => cin.IN1
+s[0] <= full_adder:full_adder_0.port4
+s[1] <= full_adder:full_adder_1.port4
+s[2] <= full_adder:full_adder_2.port4
+s[3] <= full_adder:full_adder_2.port3
+
+
+|adder|ripple_carry_adder:ripple_carry_adder_0|full_adder:full_adder_0
+a => cout.IN0
+a => cout.IN0
+a => s.IN0
+b => cout.IN1
+b => cout.IN0
+b => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => s.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|ripple_carry_adder:ripple_carry_adder_0|full_adder:full_adder_1
+a => cout.IN0
+a => cout.IN0
+a => s.IN0
+b => cout.IN1
+b => cout.IN0
+b => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => s.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|ripple_carry_adder:ripple_carry_adder_0|full_adder:full_adder_2
+a => cout.IN0
+a => cout.IN0
+a => s.IN0
+b => cout.IN1
+b => cout.IN0
+b => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => s.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder|adder_display:adder_display_0
+s[0] => Decoder0.IN3
+s[1] => Decoder0.IN2
+s[2] => Decoder0.IN1
+s[3] => Decoder0.IN0
+f[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+f[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+f[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+f[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

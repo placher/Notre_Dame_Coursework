@@ -1,0 +1,23 @@
+# etch_a_sketch_run_msim_rtl_verilog.do
+# invalid command name "etch_a_sketch_run_msim_rtl_verilog.do"
+vlog -reportprogress 300 -work work {//fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/processor_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:00:47 on Mar 23,2016
+# vlog -reportprogress 300 -work work //fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/processor_tb.v 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 15:00:47 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.processor_tb
+# vsim work.processor_tb 
+# Start time: 15:00:59 on Mar 23,2016
+# Loading work.processor_tb
+# ** Error: (vsim-3033) //fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/processor_tb.v(14): Instantiation of 'processor' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb File: //fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/verilog/processor_tb.v
+#         Searched libraries:
+#             //fs.nd.edu/~abrizius/Private/My Documents/Logic Design/lab7_2/work
+# Error loading design
+# End time: 15:00:59 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

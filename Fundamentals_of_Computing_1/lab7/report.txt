@@ -1,0 +1,14 @@
+In lab 7, we were asked to create a program that uses multiple shapes and colors, as well as cicrular motion, all animated in a
+X11 window. From the user perspective, the program opens an instance of X11 and draws a ferris wheel composed of a circle and
+square "cars" as well as spokes radiaiting out from the center. At the begining of the program, the wheel is slowly rotating
+clockwise. The user can change the speed and direction of motion by pressing the "+" and "-" keys.
+
+From a programming perspective, the image is animated in an infinite loop. Each iteration (0.1 sec), the image is cleared and
+redrawn in its new position. The position of the main circle is never changed, and the positions of the "cars" are determined
+using polar coordinates. To keep the cars upright, they are redrawn at every iteration relative to the calculated point, meaning
+that they will always be drawn level relative to the sides of the window. The spokes are drawn radially from the center of the
+circle to the center of the boxes. When the user presses a key (+ or -) a multiplier for the angle of rotation is incremented
+by one, resulting in faster/slower rotation, or even rotation in the opposite direction.
+
+Since the program is only an animation, evaluating it for correctness simply means ensuring that it renders as designed, which
+can be confirmed visually.

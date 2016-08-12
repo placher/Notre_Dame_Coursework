@@ -1,0 +1,158 @@
+# do etch_a_sketch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/hexdigit.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:16 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/hexdigit.v 
+# -- Compiling module hexdigit
+# 
+# Top level modules:
+# 	hexdigit
+# End time: 15:55:16 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog/vga_adapter {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_pll.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:16 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_pll.v 
+# -- Compiling module vga_pll
+# 
+# Top level modules:
+# 	vga_pll
+# End time: 15:55:16 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog/vga_adapter {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:16 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_controller.v 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 15:55:16 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog/vga_adapter {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_address_translator.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:16 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_address_translator.v 
+# -- Compiling module vga_address_translator
+# 
+# Top level modules:
+# 	vga_address_translator
+# End time: 15:55:16 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog/vga_adapter {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/vga_adapter/vga_adapter.v 
+# -- Compiling module vga_adapter
+# 
+# Top level modules:
+# 	vga_adapter
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/position_counter.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/position_counter.v 
+# -- Compiling module position_counter
+# 
+# Top level modules:
+# 	position_counter
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/timer.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/timer.v 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/datapath.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab7/lab7_2/verilog {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/etch_a_sketch.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:19 on Mar 23,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/etch_a_sketch.v 
+# -- Compiling module etch_a_sketch
+# 
+# Top level modules:
+# 	etch_a_sketch
+# End time: 15:55:19 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:55:24 on Mar 23,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 15:55:24 on Mar 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.processor_tb
+# vsim work.processor_tb 
+# Start time: 15:55:30 on Mar 23,2016
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.controller
+# Loading work.datapath
+# Loading work.timer
+# Loading work.position_counter
+add wave -position end  sim:/processor_tb/clk
+add wave -position end  sim:/processor_tb/reset
+add wave -position end  sim:/processor_tb/up_btn
+add wave -position end  sim:/processor_tb/down_btn
+add wave -position end  sim:/processor_tb/left_btn
+add wave -position end  sim:/processor_tb/right_btn
+add wave -position end  sim:/processor_tb/xpos
+add wave -position end  sim:/processor_tb/ypos
+add wave -position end  sim:/processor_tb/plot
+run
+# ** Note: $stop    : C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v(38)
+#    Time: 450 ns  Iteration: 0  Instance: /processor_tb
+# Break in Module processor_tb at C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab7/lab7_2/verilog/processor_tb.v line 38
+# End time: 15:56:35 on Mar 23,2016, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0

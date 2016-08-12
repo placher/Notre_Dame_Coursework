@@ -1,0 +1,22 @@
+report.txt for lab 1
+J. Patrick Lacher
+
+From the user's perspective, this program allows the user to play Connect4 against a simple computer opponent. The user is prompted
+for the column in which they wish to make their next move. The board is then reprinted to the console with their move as well as
+the move made by the computer. If the move made by either the user or the computer results in a victory, the program notifies the
+user of their victory/defeat before ending.
+
+Internally, the program is structured with c++ classes. A class for the board contains a dynamically-allocated array with instances
+of a class for each column. The board.play() function controls the game with a while loop that ends when the user enters a move of
+-1 or when the board.gameover() function determines that one party has won the game. The user is asked for the column in which they
+wish to make their next move, which is validated to ensure that the input corresponds to a valid, unfilled column or calls the end
+of the game. A function in the corresponding column class then places a marker in the lowest empty space in the column. Immediately
+after the user's move, the computer makes a move by placing a marker in the next available space, starting from the left. Get
+functions in the column class allow the board function to access the private variables in the class, generally simplifying the
+interaction with the information. When the program ends, class deconstuctors are called that free the dynamically-allocated arrays,
+which is necessary to prevent memory leakages from leaving memory allocated after the corresponding pointer indices are erased.
+
+The program was verified by playing multiple games and ensuring the interface and all of the various win conditions functioned as
+designed. Before the AI was implemented, it was simple to manipulate the moves such that all of the win conditions were tested. The
+input validation was tested by submitting various moves and ensuring illegal moves were rejected by the system. Testing confirmed
+that the program functions to the specifications given by the assignment outline.

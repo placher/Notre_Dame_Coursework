@@ -1,0 +1,59 @@
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab5 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:47:15 on Mar 02,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:47:15 on Mar 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:47:23 on Mar 02,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 15:47:23 on Mar 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:47:26 on Mar 02,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab5/top_tb.v 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 15:47:26 on Mar 02,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.top_tb
+# vsim work.top_tb 
+# Start time: 15:47:30 on Mar 02,2016
+# Loading work.top_tb
+# Loading work.top
+add wave -position end  sim:/top_tb/reset
+add wave -position end  sim:/top_tb/clk
+add wave -position end  sim:/top_tb/a
+add wave -position end  sim:/top_tb/b
+add wave -position end  sim:/top_tb/outWire1
+add wave -position end  sim:/top_tb/outWire2
+add wave -position end  sim:/top_tb/state
+run
+# End time: 15:49:15 on Mar 02,2016, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 0

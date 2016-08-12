@@ -1,0 +1,12 @@
+|nota_b_switch
+SW0 => SW0.IN1
+SW1 => SW1.IN1
+LED_RED0 << nota_b_always:nota_b_12.port2
+
+
+|nota_b_switch|nota_b_always:nota_b_12
+a => f.IN0
+b => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 20 16:19:05 2016
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : etch_a_sketch
+Top-level Entity Name : etch_a_sketch
+Family : Cyclone IV E
+Total logic elements : 178
+    Total combinational functions : 173
+    Dedicated logic registers : 75
+Total registers : 75
+Total pins : 140
+Total virtual pins : 0
+Total memory bits : 57,600
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

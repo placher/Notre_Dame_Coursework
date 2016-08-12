@@ -1,0 +1,5 @@
+For practice, type about five lines of text.
+CSE 20211
+test line
+test line 2
+test line 3 

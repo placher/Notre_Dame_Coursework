@@ -1,0 +1,177 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/simulation/modelsim
+valu
+Z1 !s110 1456350639
+!i10b 1
+!s100 ZXEM8o]iz_4NaQ>j[aAU93
+IYagN[`bK5??6Wnd_@O_NT1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1456347670
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/alu.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/alu.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1456350639.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4}
+vdecoder4x4
+R1
+!i10b 1
+!s100 7Xf62n1328Z0KNJeX_h8i0
+ImHT2Ie`2YhGNh[mQ7=?Kk1
+R2
+R0
+w1456346936
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/decoder4x4.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/decoder4x4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/decoder4x4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/decoder4x4.v|
+!i113 1
+R5
+R6
+vmux2x1
+R1
+!i10b 1
+!s100 NKSHgWNhAJcc0hOnhh1K;3
+IlDY42lW_XGCF4d_4KgWC70
+R2
+R0
+w1456347725
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux2x1.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux2x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux2x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux2x1.v|
+!i113 1
+R5
+R6
+vmux4x4
+R1
+!i10b 1
+!s100 JV>fjMB5Q8EJY7HWoHgYE2
+I^G60nN8K[kCLgfk2W>O0a1
+R2
+R0
+w1456345130
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux4x4.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux4x4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux4x4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux4x4.v|
+!i113 1
+R5
+R6
+vregfile_2r1w
+R1
+!i10b 1
+!s100 UzeoAW]2@<UTmgYlb:5Tj1
+Izgzn7LZPh@oCKoZEmHZ[T3
+R2
+R0
+w1456346217
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/regfile_2r1w.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/regfile_2r1w.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/regfile_2r1w.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/regfile_2r1w.v|
+!i113 1
+R5
+R6
+vregister4
+!s110 1456350640
+!i10b 1
+!s100 BYnFMSAKS@``LNC_W=G]J3
+I8^O_?;?O;MK@m9O^L3WNN1
+R2
+R0
+w1456347819
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/register4.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/register4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/register4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/register4.v|
+!i113 1
+R5
+R6
+vtop
+R1
+!i10b 1
+!s100 UB@UI=3e1Zo>Edln5i`[T3
+IlgMD^P9JeEM6]FaKI^djY2
+R2
+R0
+w1456349438
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top.v|
+!i113 1
+R5
+R6
+vtop_tb
+!s110 1456350656
+!i10b 1
+!s100 N>TW_7HR2H9^alz]Fko583
+I=hAzJL2346P8J_OVLT5Ih1
+R2
+R0
+w1456350560
+8C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v
+FC:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1456350656.000000
+!s107 C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v|
+!i113 1
+o-work work

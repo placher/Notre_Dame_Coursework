@@ -1,0 +1,21 @@
+report.txt for pre-lab warmup
+J. Patrick Lacher
+
+From the user's perspective, the programs this week are relatively simple. The pi_estimate program asks the user for an interger
+input for the number of terms the program will use to estimate the value of pi. The estimate after every successive term is
+printed to the console. The mortgage program has no user inputs, but prints a demonstration of the requisite functions and a
+sample amertization table to the console to demonstrate the effectiveness of the class.
+
+Internally, the pi_estimate program takes the user's input as an argument to a for loop that applies the algorithim for estimating
+pi, printing the estimate to the console at the end of every iteration of the loop. All of the information in the mortgage program
+is stored within the mortgage class, which comprises the essential variables, a means for checking the validity of the inputs,
+and the functions necissary for interacting with them and forming the amertization tables. The program uses a series of hard-coded
+directives in the main.cpp file to illustrate all of the features of the mortgage class that were required by the assignment. All
+of these files are compiled by the included Makefile to simplify utilization of the program.
+
+The pi_estimate program can be evaluated for correctness by implementing the same algorithm on paper. As the number of terms is
+increased, the output trends towards 3.141592653, as is expected. The mortgage program was verified for correct results by
+comparing its outputs with that of the mortgage program developed last semester for Fundamentals of Computing I, which has already
+been proven to function correctly. The mortgage algorithm does have a problem if the payment made is smaller than the accrued
+interest or if the interest rate is 0, so a test for these conditions was implemented in the constructor, setting all values in
+the class to 0 if either of these cases occurs.

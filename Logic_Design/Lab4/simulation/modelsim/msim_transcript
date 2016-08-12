@@ -1,0 +1,127 @@
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:50:39 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/decoder4x4.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/decoder4x4.v 
+# -- Compiling module decoder4x4
+# 
+# Top level modules:
+# 	decoder4x4
+# End time: 16:50:39 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/regfile_2r1w.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/regfile_2r1w.v 
+# -- Compiling module regfile_2r1w
+# 
+# Top level modules:
+# 	regfile_2r1w
+# End time: 16:50:39 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux4x4.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux4x4.v 
+# -- Compiling module mux4x4
+# 
+# Top level modules:
+# 	mux4x4
+# End time: 16:50:39 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:50:39 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux2x1.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/mux2x1.v 
+# -- Compiling module mux2x1
+# 
+# Top level modules:
+# 	mux2x1
+# End time: 16:50:39 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Patrick/Documents/Sophomore\ Year\ (2015-2016)/Logic\ Design/Lab4 {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/register4.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:39 on Feb 24,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4" C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/register4.v 
+# -- Compiling module register4
+# 
+# Top level modules:
+# 	register4
+# End time: 16:50:40 on Feb 24,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:53 on Feb 24,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 16:50:54 on Feb 24,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:50:56 on Feb 24,2016
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Documents/Sophomore Year (2015-2016)/Logic Design/Lab4/top_tb.v 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 16:50:56 on Feb 24,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.top_tb
+# vsim work.top_tb 
+# Start time: 16:51:01 on Feb 24,2016
+# Loading work.top_tb
+# Loading work.top
+# Loading work.regfile_2r1w
+# Loading work.register4
+# Loading work.decoder4x4
+# Loading work.mux4x4
+# Loading work.mux2x1
+# Loading work.alu
+add wave -position end  sim:/top_tb/imm
+add wave -position end  sim:/top_tb/raddr_a
+add wave -position end  sim:/top_tb/raddr_b
+add wave -position end  sim:/top_tb/waddr
+add wave -position end  sim:/top_tb/reg_imm
+add wave -position end  sim:/top_tb/op
+add wave -position end  sim:/top_tb/clk
+add wave -position end  sim:/top_tb/dim
+add wave -position 4  sim:/top_tb/wren
+run
+# End time: 16:55:54 on Feb 24,2016, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 0

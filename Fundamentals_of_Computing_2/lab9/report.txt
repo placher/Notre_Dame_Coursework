@@ -1,0 +1,12 @@
+The user has no control over the binary tree program. When the program is executed, the user simply sees a printout on the terminal
+with the "Final Four", as well as demonstrations of the search and traversal algorithms.
+
+Internally, the program builds a binary tree using arrays of node objects that are sorted into a "bracket" by the constructor,
+advancing the node with greater data value "up" the tree to be the parent of that group. The search algorithms operate on a
+recursive pattern to filter through the tree in the desired pattern (either node first, node in between left and right children,
+or node last). The final four is determined by following the tree down two levels, returning these four nodes and the root node,
+which indicates the champion. The parent node reassignments were accomplished with setData() and setChildren() functions that were
+developed to allow the tree to be built in inverse order (children before parents).
+
+The binary tree was verified by writing out a binary tree with the same data by hand and verifying the algorithms correctly sorted
+the data by comparing this hard copy with the terminal printouts.

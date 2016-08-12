@@ -1,0 +1,21 @@
+report.txt for Lab 8
+J. Patrick Lacher
+
+From the user's perspective, the program opens a X11 window and animates a carnival ride. A blue rail moves vertically up and down
+the screen, with a red circle sliding horizontally across it. A second, purple rail rotates radially about the center of the red 
+circle. A green box containing the "rider" rotates with the purple rail, at the same time sliding up and down its length.
+
+From a coding perspective, each color can be thought of as representing a different sub-function. First, the blue line is drawn,
+with its y-position being incremented by 5 pixels every iteration, changing direction when it reaches certain bounds. The line
+also calls the function for the red circle, which renders the circle using the line's y-position and an x-position that moves
+from one end of the line to the other, changing direction when the center of the circle comes within 20 pixels of the end of the
+line. The circle then calls the function for the purple rotating arm, which is anchored at the mobile center of the circle and
+rotates radially around it with a speed of pi/20, determining the points of the other end of the line using polar coordinates,
+as well as calling the function for the green box. The center of the box is anchored on the purple line, but its relative position
+is determined by changing the length along the line at which it is rendered by multiplying the coordinates by an oscilating
+decimal. Finally, the box calls a function that draws a stick figure to represent the "rider", which is drawn relative to the
+center of the box. The top function (the blue line) is suspended in a while loop that ends when the user presses the "q" key.
+
+Since this is a program solely for rendering/animating a series of graphics, its correctness can be evaluated by simply examining
+the fully-rendered animation and comparing it to what was intended (making sure the animation is smooth, every object is properly
+anchored, etc.). The only other test was to make sure that the program ends when "q" is pressed, which it does.
