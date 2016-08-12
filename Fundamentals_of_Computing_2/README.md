@@ -9,7 +9,7 @@ Fundamentals of Computing II focused on object-oriented programming with C++ 11.
 
 ### Final Project
 
-The course also contained a semester-long design project, intended to teach the process of planning and executing a multi-stage project as part of a group and the related record-keeping and reporting. The project is in its own repository, which can be seen [here](www.github.com/placher/pokeproject).
+The course also contained a semester-long design project, intended to teach the process of planning and executing a multi-stage project as part of a group and the related record-keeping and reporting. The project is in its own repository, which can be seen [here](https://github.com/placher/pokeproject).
 
 ### Course Website
 
