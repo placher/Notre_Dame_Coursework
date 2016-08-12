@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+
+\title{Reading 08: Document Tools}
+\author {J. Patrick Lacher}
+\date{}
+
+\begin{document}
+
+	\pagenumbering{arabic}
+	\maketitle
+	
+	\section{Overview}
+	
+	For this experiment I created three scripts:
+	
+	\begin{itemize}
+		\item roll dice.sh: This script simulates rolling a dice.
+		\item experiment.sh: This script uses roll dice.sh to perform an experiment and then collect that data
+into results.dat.
+		\item histogram.plt: This script uses gnuplot to create a graph of the data in results.dat.
+	\end{itemize}
+	
+	\section{Rolling Dice}
+	
+	First, I created a script called roll dice.sh that uses the shuf command to simulate rolling a die with a certain number of sides for a specified amount of rolls.
+
+	\$ ./roll\_dice.sh -h
+	
+	usage: roll\_dice.sh [ -r ROLLS -s SIDES ]
+	
+	
+	-r ROLLS Number of rolls of die (default: 10)
+	
+	-s SIDES Number of sides on die (default: 6)
+
+	\section{Experiment}
+	
+	Second, I created a script called experiment.sh that uses roll dice.sh to simulate rolling a six-sided die 1000 times. My script uses awk to collect the results into a single file called results.txt.
+	
+	\section{Results}
+	
+	Table 1 contains the results of my experiment of rolling a dice 1000 times:
+	
+		\begin{table}[h!]
+	
+			\centering
+		
+			\caption{Dice Rolling Results}
+		
+			\label{tab:table1}
+		
+			\begin{tabular}{l||c}
+				
+				Side & Counts\\
+				
+				\hline
+				
+				1 & 183\\
+				
+				2 & 165\\
+				
+				3 & 171\\
+				
+				4 & 170\\
+				
+				5 & 151\\
+				
+				6 & 160\\
+				
+			\end{tabular}
+			
+		\end{table}
+Figure 1 contains a plot of my experimental results as produced by histogram.plt:
+	
+	\begin{figure}[h!]
+		\includegraphics[width=\linewidth]{histogram.png}
+		
+		\caption{The results of 1000 dice rolls}
+		
+		\label{fig:results1}
+		
+	\end{figure}
+
+\end{document}
